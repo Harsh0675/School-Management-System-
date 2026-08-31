@@ -1,0 +1,8 @@
+{
+  "name": "Education Valley School Bhopal - MP Board Portal",
+  "description": "MP Board (MPBSE Bhopal) affiliated school management system for Education Valley School, Bhopal featuring student directory with Samagra ID, daily attendance register, MP Board marksheet & exam admit cards, fee counter with receipts, and bilingual notices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
