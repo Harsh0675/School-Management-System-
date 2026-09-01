@@ -1,0 +1,19 @@
+{
+  "repo": "Harsh0675/School-Management-System-",
+  "repo_id": 1352739413,
+  "description": "Web application ",
+  "language_composition": [
+    {
+      "name": "TypeScript",
+      "percent": 99.4
+    },
+    {
+      "name": "HTML",
+      "percent": 0.4
+    },
+    {
+      "name": "CSS",
+      "percent": 0.01
+    }
+  ]
+}
