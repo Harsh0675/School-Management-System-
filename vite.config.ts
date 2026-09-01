@@ -153,6 +153,7 @@ Provide helpful, concise, executive-grade answers. If the user asks to add/modif
 
 export default defineConfig(() => {
   return {
+    base: './',
     plugins: [react(), tailwindcss(), geminiApiPlugin()],
     resolve: {
       alias: {
