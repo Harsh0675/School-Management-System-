@@ -1,150 +1,146 @@
 # School Management System
 
-A modern web application built with React, TypeScript, and Vite for managing school operations.
+A modern **React + TypeScript** web application for organizing school operations through a responsive, component-driven interface. The project uses Vite for development/build tooling and includes an AI integration layer for Gemini-powered features.
 
-## 🚀 Quick Start
+## ✨ Highlights
 
-### Prerequisites
+- School operations management interface
+- React 19 + TypeScript frontend
+- Responsive Tailwind CSS styling
+- Lucide React icons
+- Motion-based interactions and visual effects
+- Gemini AI integration capability
+- Vite development and production workflow
+- npm and Bun-compatible commands
 
-- **Node.js** (v18 or higher)
-- **npm** or **bun** package manager
-- **Gemini API Key** (for AI features)
+## 🧩 Architecture
 
-### Installation
+```text
+React + TypeScript application
+          ↓
+Reusable UI components
+          ↓
+Client-side application logic
+          ↓
+Vite production build
+          ↓
+Static web deployment
+```
 
-1. **Clone the repository**
+The repository is primarily a frontend application. AI/API credentials should be handled through appropriate environment or server-side configuration rather than exposed as public client secrets.
+
+## 🛠️ Technology Stack
+
+| Technology | Role |
+| --- | --- |
+| React 19 | UI architecture |
+| TypeScript | Type-safe development |
+| Vite 6 | Development server and bundling |
+| Tailwind CSS 4 | Styling |
+| Lucide React | Icons |
+| Motion | Interface animation |
+| Canvas Confetti | Visual feedback |
+| `@google/genai` | Gemini AI integration |
+| Express | Server-side capability included by the project dependencies |
+
+## 🚀 Getting Started
+
+### Requirements
+
+- Node.js 18+
+- npm or Bun
+- Gemini API credentials if AI features are enabled
+
+### 1. Clone
+
 ```bash
 git clone https://github.com/Harsh0675/School-Management-System-.git
 cd School-Management-System-
 ```
 
-2. **Install dependencies**
+### 2. Install
 
-Using npm:
 ```bash
 npm install
 ```
 
-Or using bun:
+Or:
+
 ```bash
 bun install
 ```
 
-3. **Set up environment variables**
+### 3. Configure environment
 
-Copy the `.env.example` file to `.env`:
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env` and add your configuration:
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-APP_URL=http://localhost:3000
-```
+Add the required local configuration to `.env` rather than committing real credentials.
 
-### Running the Application
+### 4. Start development
 
-#### Development Mode
 ```bash
 npm run dev
-# or
-bun run dev
 ```
 
-The application will start at `http://localhost:3000`
+The configured Vite development server runs on **port 3000**.
 
-#### Build for Production
+## 📦 Production workflow
+
+Build the application:
+
 ```bash
 npm run build
-# or
-bun run build
 ```
 
-#### Preview Production Build
+Preview the production output:
+
 ```bash
 npm run preview
-# or
-bun run preview
 ```
 
-#### Type Checking
+Type-check the project:
+
 ```bash
 npm run lint
-# or
-bun run lint
 ```
 
-#### Clean Build Artifacts
+Clean generated build artifacts:
+
 ```bash
 npm run clean
-# or
-bun run clean
 ```
-
-## 📦 Tech Stack
-
-- **Frontend**: React 19 with TypeScript
-- **Build Tool**: Vite 6
-- **Styling**: Tailwind CSS 4
-- **UI Components**: Lucide React
-- **Animations**: Motion & Canvas Confetti
-- **AI Integration**: Google Generative AI (@google/genai)
-- **Backend**: Express.js
-- **Runtime**: Bun (optional, but recommended)
 
 ## 📁 Project Structure
 
+```text
+School-Management-System-/
+├── src/                # React + TypeScript source
+├── public/             # Static assets
+├── index.html          # Application entry document
+├── package.json        # Scripts and dependencies
+├── vite.config.ts      # Vite configuration
+├── tsconfig.json       # TypeScript configuration
+├── .env.example        # Environment template
+└── README.md           # Documentation
 ```
-├── src/                    # Source code
-├── public/                 # Static assets
-├── index.html             # Main HTML entry point
-├── package.json           # Project dependencies
-├── tsconfig.json          # TypeScript configuration
-├── vite.config.ts         # Vite configuration
-├── tailwind.config.js     # Tailwind CSS configuration
-└── .env.example           # Environment variables template
-```
 
-## 🔑 Environment Variables
+## 🔐 Security notes
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `GEMINI_API_KEY` | Google Generative AI API key for AI features | Yes |
-| `APP_URL` | Base URL of the application | Yes |
+- Keep API keys out of Git history.
+- Use `.env` for local development configuration.
+- Treat browser-visible environment values as public.
+- For production AI integrations, prefer a server-side proxy when a provider credential must remain private.
 
-Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+## 🎯 Portfolio value
 
-## 🛠️ Development
+This project demonstrates modern frontend engineering with React, TypeScript, utility-first CSS, animation, AI SDK integration, environment configuration, and a production-oriented Vite workflow.
 
-### Available Scripts
+## 📄 License
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start development server on port 3000 |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build locally |
-| `npm run lint` | Check TypeScript types |
-| `npm run clean` | Remove dist folder and build artifacts |
-
-### Project Configuration
-
-- **TypeScript**: Configured for module type with strict settings
-- **Vite**: Configured with React plugin for HMR and optimized builds
-- **Tailwind CSS**: v4 with Vite plugin support
-
-## 📝 License
-
-This project is provided as-is for educational and commercial use.
+The repository currently describes the project as available for educational and commercial use. Review the repository's license terms before redistribution.
 
 ## 👤 Author
 
-[Harsh0675](https://github.com/Harsh0675)
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to submit issues and pull requests.
-
----
-
-**Happy coding! 🎉**
+**Harsh0675** — https://github.com/Harsh0675
